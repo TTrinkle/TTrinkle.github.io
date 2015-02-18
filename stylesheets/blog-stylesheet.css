@@ -20,10 +20,14 @@ h4 {
 p {
 	width: 70%;
 	margin: auto;
+	margin-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+section {
 	margin-top: 70px;
 	border-color: #737F7F;
 	border-left-style: dotted;
 	border-right-style: dotted;
-	padding-left: 10px;
-	padding-right: 10px;
+	margin-bottom:20px;
 }
