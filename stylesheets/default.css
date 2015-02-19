@@ -54,3 +54,13 @@ img {
 	margin-right: 10%;
 	
 }
+
+main {
+	font-size: 3em;
+	text-align: center;
+	width: auto;
+	height: 10px;
+	background-color: #4A4A4A;
+	color: white;
+
+}
