@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <title>Technical Blog W.3</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lobster|Indie+Flower' rel='stylesheet' type='text/css'>
+</head>
+
+<main>
+    <h1>The .map Method</h1>
+    <h4>February 26th, 2015</h4>
+
+  <section>
+      <p>
+        When I set out to determine what the #map method was, I had a preconceived notion that it was extremely complicated, and very difficult to use. Only to discover I WAS SO WRONG. I chose to look at the map method because I knew I had seen it before, but couldn’t understand what it was doing to my code. 
+
+        I’m going to attempt to explain what the method is, how to use it, and how to refactor it in 5 points.
+
+      </p>
+      <p>
+      1. The map method creates a collection of items. 
+      2. The collect method works very similar, so if you want to think about what the map method does, think of “collect”. 
+      3. The map method returns an array.
+      4. The method is not destructive. This means it will create a new array with the code in the block, and will never change the original array. 
+      5. An example of map method is below:
+      array.map { |number| number * 2}
+      This code is going to go through each object in the array (shown by calling each array object “number”), and then multiplying that object by 2. 
+      If I use example array=[1, 2, 3, 4, 5]. The above code will return a new array with [2, 4, 6, 8, 10].
+      </p>
+      <p>
+      Overall, the map method is easy to use. It can be extremely useful when you want to perform an action on each object in an array and then collect those new objects into a separate array. 
+
+      </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
