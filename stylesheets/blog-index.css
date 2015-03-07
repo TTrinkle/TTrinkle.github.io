@@ -11,3 +11,53 @@
 	margin: auto;
 	margin-top: 3%;
 }
+
+#Blogs {
+
+}
+h1 {
+	text-align: center;
+  	background-color: #D7D7FF;
+  	width: 65%;
+  	position: relative;
+  	font-family: 'Lobster', cursive;
+  	margin: auto;
+  	float: right;
+  	padding-right: 10px;
+  	margin-right: 10%;
+  	position: relative;
+}
+
+h4 {
+	 margin: auto;
+  	font-family: "Indie FLower", cursive;
+	margin-top: 10px;
+	text-align: right;
+	background-color: #CFE5E5;
+	width: 65%;
+	padding-right: 10px;
+	float: right;
+	margin-right: 10%;
+}
+
+p {
+	width: 90%; 
+	margin: auto;
+	margin-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+section {
+	margin-top: 5px;
+ 	width: 65%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-color: #737F7F;
+  	border-left-style: dotted;
+  	border-right-style: dotted;
+  	background-color: white;
+  	padding-top: 15px;
+  	padding-bottom: 20px;
+  	float: right;
+  	margin-right: 10%;
+}
