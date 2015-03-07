@@ -15,17 +15,25 @@
 #Blogs {
 
 }
+ol {
+	list-style-type: none;
+}
+li{
+	list-style-type: none;
+}
 h1 {
 	text-align: center;
   	background-color: #D7D7FF;
-  	width: 65%;
+  	width: 80%;
   	position: relative;
   	font-family: 'Lobster', cursive;
   	margin: auto;
   	float: right;
   	padding-right: 10px;
-  	margin-right: 10%;
+  	margin-right: 1%;
   	position: relative;
+  	border-top: 15px;
+  	margin-top: 10px;
 }
 
 h4 {
@@ -34,10 +42,10 @@ h4 {
 	margin-top: 10px;
 	text-align: right;
 	background-color: #CFE5E5;
-	width: 65%;
+	width:80%;
 	padding-right: 10px;
 	float: right;
-	margin-right: 10%;
+	margin-right: 1%;
 }
 
 p {
@@ -49,15 +57,16 @@ p {
 }
 section {
 	margin-top: 5px;
- 	width: 65%;
+ 	width: 80%;
   	margin-left: auto;
   	margin-right: auto;
   	border-color: #737F7F;
   	border-left-style: dotted;
   	border-right-style: dotted;
+  	border-bottom-style: solid;
   	background-color: white;
   	padding-top: 15px;
   	padding-bottom: 20px;
   	float: right;
-  	margin-right: 10%;
+  	margin-right: 1%;
 }

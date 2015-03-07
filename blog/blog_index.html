@@ -11,15 +11,16 @@
 	<div id ="Tanya">
 		Tanya Trinkle
 	</div>
+	<div id= "Sidebar">
 	<div id ="Blogs">
 		<img src="../imgs/Blogs.png" style="height: 5em; margin-left:1%; margin-top:1%; width:13%">
 	</div>
 	<ol> Technical Blogs
-		<!-- <a href="t1-git-blog.html"> Week 1 - Git Blog </a> 
-		<li> <a href="t2-css-design.html"> Week 2 - CSS Design </a></li>
-		<li> <a href="t3-arrays-hashes.html"> Week 3 - Arrays & Hashes </a></li>
-		<li> <a href="t4-enumerable-methods.html"> Week 4 - The Map Method </a></li>
-		<li> <a href="t5-ruby-classes.html"> Week 5 - Ruby Classes </a></li> -->
+		<!-- <a href=#"CSS Positions"> Week 1 - Git Blog </a>  -->
+		<li><a href="#CSS_Positions"> Week 2 - CSS Design </a></li>
+		<li><a href="#Arrays"> Week 3 - Arrays & Hashes </a></li>
+		<!-- <li> <a href="t4-enumerable-methods.html"> Week 4 - The Map Method </a></li>
+		<li> <a href="t5-ruby-classes.html"> Week 5 - Ruby Classes </a></li> --> 
 	</ol>
 </div>
 <div id="CultBlogs">
@@ -29,11 +30,11 @@
 		<li> <a href="c5-feedback.html"> Week 5 - Giving and Getting Feedback </a></li> -->
 	</ol>
 </div>
-</div id="WrittenBlog">
- <h1>CSS Positioning </h1>
-  <h4>Feb 14, 2015</h4>
-
-  <section>
+</div>
+	<A name = "CSS_Positions">
+ 	<h1>CSS Positioning </h1>
+ 	<h4>Feb 14, 2015</h4>
+ 	<section>
     <p>
       The differences between relative, absolute and fixed positioning
     </p>
@@ -54,6 +55,32 @@
         Fixed:
           A fixed elements works similar to the absolute position. Also requiring details using top, bottom, right or left. However it will not move when you are scrolling on a page. It will remain fixed to the area you told it to be in. You may want to use a fixed position when creating a footer on your page so it stays at the bottom of the page regardless of where you are. 
       </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+ 
+  <h1>A Ray of Sunshine</h1>
+  <h4>February 19th, 2015</h4>
+
+  <section>
+  	 <A name = "Arrays">
+    <p>
+     What is an array?
+        An array is an ordered list of objects. Objects can be strings, integers / floats, or other arrays. Each item in an array has a position or an index and can be referred to by calling that position. Think of putting a bunch of people in a line, each person represents either a number or a word. Now put a number on each person's shirt, starting at 0. The entire line will have a name, let's call it "Conga_Line". If I tell ruby to return to me what is in the conga_line at position [3] it would present me with the element of the fouth person.
+      </br>
+        Remember, arrays always start with the first element in position 0. I can tell ruby to present any one of the index's. I can also give ruby an element, and let it tell me the position of that element. 
+
+        With various methods, I can easily add items to the array, replace items currently included, and remove any items I choose. 
+    </p>
+    <p>
+      What is a hash?
+       Hashes are very similar to arrays. They are also a collection of strings or integers / floats. Elements in a hash are not automatically assigned a position as they are in an array. Instead, each value must be assigned a key. You can call a key to recieve the cooresponding element, the same you can call an array position and return what is there. 
+
+       Hashes also have a default value that will return if you call a key that is not present in the hash. Ruby will give you your default value, rather than an error, if you are asking for something in a hash that does not exist. 
+    </p>
+    <p>
+        Both options are a great way to organize your data. One is not necessarily better than the other for the types of programs we are creating. If you're working with a large amount of data, depending on how you are looking to manipulate the data will change whether you use an array or a hash, as the run times for each will differ. But for now, you should feel comfortable using either one. 
+    </p>
 
       <!-- copy and paste as many sections as you want to add paragraphs -->
   </section>
