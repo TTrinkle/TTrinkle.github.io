@@ -1,5 +1,5 @@
 #Tanya {
-	font-size: 65pt;
+	font-size: 70pt;
 	font-family: 'Kristi', cursive;
 	font-weight: bold;
 	text-align: center;
@@ -12,8 +12,9 @@
 	margin-top: 3%;
 }
 
-/*html {
-	background-color:#F2FFE6;
+html {
+	background: url(../imgs/GoldDotBackground.png) no-repeat center center fixed; 
+
 }
 	
 h1 {
