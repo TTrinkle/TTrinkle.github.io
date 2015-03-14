@@ -27,8 +27,8 @@ li{
 }
 h1 {
 	text-align: center;
-  	background-color: #D7D7FF;
-  	width: 80%;
+  	/*background-color: #D7D7FF;*/
+  	width: 70%;
   	position: relative;
   	font-family: 'Lobster', cursive;
   	margin: auto;
@@ -44,24 +44,24 @@ h4 {
 	 margin: auto;
   	font-family: "Indie FLower", cursive;
 	margin-top: 10px;
-	text-align: right;
-	background-color: #CFE5E5;
-	width:80%;
+	text-align: left;
+	/*background-color: #CFE5E5;*/
+	width:70%;
 	padding-right: 10px;
 	float: right;
 	margin-right: 1%;
 }
 
 p {
-	width: 90%; 
+	width: 95%; 
 	margin: auto;
 	margin-top: 30px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 section {
 	margin-top: 5px;
- 	width: 80%;
+ 	width: 70%;
   	margin-left: auto;
   	margin-right: auto;
   	border-color: #737F7F;

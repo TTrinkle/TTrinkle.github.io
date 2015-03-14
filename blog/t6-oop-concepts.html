@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <title>Technical Blog W.6</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lobster|Indie+Flower' rel='stylesheet' type='text/css'>
+</head>
+
+<main>
+    <h1>Inheritance Vs. Composition</h1>
+    <h4>March 14th, 2015</h4>
+
+  <section>
+      <p>
+        By this point you may be wondering what is the different between Ruby Inheritane and Composition. Let's start by defining both. Inheritance is used to indicate one class will absorb the responsibilities or features of it's parent class. The class gaining the inheritance is considered the child class. Unlike other languages, Ruby only allows one parent, and one child class. The child class may interact with the parent class in three ways. 
+        1. Actions may imply an action on the parent.
+        2. Actions may override parent actions.
+        3. Actions may alter parent actions. 
+        Let's look at each of the three examples below.
+      </p>
+      <p>
+       In the first example, we've defined two classes, Parent and Child. As you can see, the child class has no methods of it's own, but will take on the parent say_hello method. We are able to call the say_hello method on both instances of a new Parent object, as well as the new Child object. The outputs of both are exactly the same. Hello ___. 
+      </p>
+      <p>
+        The second example, we've overriden the parent say_hello method, but telling the child to say something slightly different. Calling the say_hello method on instances of the child class will output a Hi __ response rather than Hello. The class will also look to it's own methods before running that of it's parent, unless specified otherwise. 
+      </p>
+      <p>
+        The third example, shows how we can alter the action of the parent. We can use the super object to let the program know we would like it to run from the parent class, regardless of what is in the child class. 
+      </p>
+        
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
