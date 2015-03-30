@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+  <title>Title of the site</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="cheat-sheet-stylesheet.css">
+</head>
+
+<body>
+  <div class = "containers-block">
+    <div class = "ruby-container">
+      <h1>Ruby</h1>
+
+      <h3>FOR</h3>
+      <p class = "par-text">
+      <span class = "highlight">for</span> i <span class="highlight">in</span> 1..10<br>
+        #do something with '#{i}'<br>
+      <span class = "highlight">end</span>
+    </p>
+
+      <h3>WHILE</h3>
+      <p class = "par-text">
+          i = 0<br>
+      <span class = "highlight">while</span> i > 10<br>
+        i += i<br>
+      <span class = "highlight">end</span>
+    </p>
+
+    <h3>EACH</h3>
+      <p class = "par-text">
+      array.<span class = "highlight">each</span> <span class="highlight">do</span> |variable|<br>
+        #do something<br>
+      <span class = "highlight">end</span>
+    </p>
+    </div>
+
+      <div class = "general-container">
+        <h1>About Loops</h1>
+        <p class = "par-text">
+          Loops are a tool to make the computer do one task repetitively until a condition is met. <br>
+          The main types are: <br><br>
+          <span class = "highlight">For Loops <br></span>
+          <span class = "highlight">While <br></span>
+          <span class = "highlight">Do (specific to ruby) <br></span>
+          <span class = "highlight">Each (specific to Ruby) <br> <br></span>
+          In Ruby, loops are contained with the loop definition and the keyword 'end'. <br><br>
+          Javascript uses enclosures like brackets {} and parentheses () to keep track of what is inside of the loop.<br>
+          To the left and right are some comparisons on how to define and run loops in each language.<br>
+        </p>
+    </div>
+
+    <div class = "javascript-container">
+      <h1>JavaScript</h1>
+
+      <h3>FOR</h3>
+      <p class = "par-text">
+        <span style="color:#dddddd; font-size:10px;">//note: there are two different for loops in JavaScript. For and for..in</span><br><br>
+        array = [1,2,3,4,5,6,7];<br><br>
+          <span class = "highlight">for</span> (var i = array.length - 1; i >= 0; i++) {
+            array[i]; <br>
+          };
+          <br><br>
+        </p>
+
+        <h3>WHILE</h3>
+
+        <p class = "par-text">
+          i = 0<br>
+        <span class = "highlight">while </span>(i < 10) {<br>
+        //execute code and stuff
+        i++
+      };
+        </p>
+    </div>
+  </div>
+
+</body>
